@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+<h1>Checkout</h1>
+
+<form onsubmit="return validateForm()">
+    Name: <input type="text" id="name"><br>
+    Email: <input type="text" id="email"><br>
+    Phone: <input type="text" id="phone"><br>
+    Address: <input type="text" id="address"><br>
+    City: <input type="text" id="city"><br>
+    PIN: <input type="text" id="pin"><br>
+
+    Payment:
+    <input type="radio" name="pay">COD
+    <input type="radio" name="pay">UPI<br>
+
+    <input type="checkbox" id="terms"> Accept Terms<br>
+
+    <input type="submit" value="Place Order">
+</form>
+
+</body>
+</html>
+
+
